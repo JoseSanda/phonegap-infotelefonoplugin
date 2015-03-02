@@ -1,4 +1,4 @@
-var ejecutar = require('codova/exec');
+var ejecutar = require('cordova/exec');
 
 var invocarNativo = function(success,fail){    
     ejecutar(success,fail,'infotelefonoplugin','GET_IDENTIFICACION',[]);
